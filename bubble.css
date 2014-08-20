@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document
+Use for : bubble_test.html
+Version : 1.0
+Date : 2014/08/19
+Author : wzj
+*/
+
+/* CSS Reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td ,span, object, iframe{ padding:0; margin:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset, img { border:0; }
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+q:before, q:after { content:”; }
+.clear:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clear {+display:none; clear:both }
+.clearfix:after { content:""; height:0; visibility:hidden; display:block; clear:both; }
+.clearfix { zoom:1; }
+a{ text-decoration:none; }
+a:hover{ text-decoration:underline; }
+.clearit{ clear:both; width:0px; height:0px; overflow:hidden; }
+
+body{overflow: hidden;}
+.wrapper{ position: relative; width: 518px; height: 418px; top:-100px;margin: 300px auto; background:transparent;text-align: center;}
+.tree {width: 100%;height: 100%;}
+.tree li{ position: absolute; float: left;width: 100%; height: 100%; }
+#trunk{ background: url(bubbles.png) no-repeat 0 -1254px ; left:150px; top: 243px;width: 143px;height: 154px}
+#bubble01{ background: url(bubbles.png) no-repeat 0 0; left:90px; top: 187px;width: 79px;height: 75px}
+#bubble02{ background: url(bubbles.png) no-repeat 0 -76px; left:178px; top: 187px; width: 111px;height: 105px}
+#bubble03{ background: url(bubbles.png) no-repeat 0 -182px; left:96px; top: 137px; width: 105px;height: 101px}
+#bubble04{ background: url(bubbles.png) no-repeat 0 -283px; left:246px; top: 249px; width: 68px;height: 64px}
+#bubble05{ background: url(bubbles.png) no-repeat 0 -348px; left:72px; top: 271px; width: 69px;height: 65px}
+#bubble06{ background: url(bubbles.png) no-repeat 0 -414px; left:84px; top: 226px; width: 89px;height: 85px}
+#bubble07{ background: url(bubbles.png) no-repeat 0 -500px; left:190px; top: 120px; width: 113px;height: 108px}
+#bubble08{ background: url(bubbles.png) no-repeat 0 -609px; left:22px; top: 202px; width: 84px;height: 80px}
+#bubble09{ background: url(bubbles.png) no-repeat 0 -690px; left:71px; top: 104px; width: 149px;height: 142px}
+#bubble10{ background: url(bubbles.png) no-repeat 0 -833px; left:2px; top: 237px; width: 42px;height: 39px}
+#bubble11{ background: url(bubbles.png) no-repeat 0 -873px; left:21px; top: 158px; width: 66px;height: 63px}
+#bubble12{ background: url(bubbles.png) no-repeat 0 -937px; left:267px; top: 61px; width: 66px;height: 63px}
+#bubble13{ background: url(bubbles.png) no-repeat 0 -1001px; left:268px; top: 160px; width: 135px;height: 129px}
+#bubble14{ background: url(bubbles.png) no-repeat 0 -1131px; left:156px; top: 241px; width: 78px;height: 74px}
+#bubble15{ background: url(bubbles.png) no-repeat 0 -1206px; left:288px; top: 269px; width: 50px;height: 47px}
